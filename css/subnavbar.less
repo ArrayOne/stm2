@@ -1,0 +1,191 @@
+ul,p,ol,li{
+  margin:0;
+  padding:0;
+}
+ul,ol{
+  list-style: none;
+}
+*{
+  box-sizing: border-box;
+}
+a:hover{
+  text-decoration: none;
+
+}
+
+/*头部导航的字体大小设计*/
+#na .navbar-brand{
+  font-size:1rem ;
+}
+
+.dot1,.dot2{
+  width:12px;
+  height:12px;
+  background:#aaa;
+  display:inline-block;
+  border-radius: 50%;
+}
+.main{
+  text-align: center;
+  text-align: -webkit-center;
+}
+
+.title{
+  color: #424242;
+  margin:10px auto;
+}
+.priceHead{
+  margin-bottom:10px;
+}
+.depict{
+  line-height: 1.2;
+  font-size: 12px;
+  color: #d0d0d0;
+  margin: 8px auto 14px;
+}
+
+.price{
+  color:red;
+  font-size:14px;
+}
+/*设置每个小模块的边框*/
+.borMargin{
+  border:1px solid #cccccc;
+  border-radius: 20px;
+}
+
+
+/*bgColor*/
+.bgColor{
+  background: #EDEDED;
+}
+/*没有右边距*/
+.noMargin-Right{
+  margin-right: 0 !important;
+}
+/*圆*/
+.circleStyle{
+  width:23px;
+  height:23px;
+  display: inline-block;
+  border-radius:50%;
+  background: #aaa;
+  text-align: center;
+}
+/*底部服务模块*/
+.online,.goods-Return,.exchange-goods,.ng-binding{
+  width: 36px;
+  height:40px;
+  display:inline-block;
+  margin:20px auto 5px;
+  background: url("../img/shopping-info_1d658b7a09.png") no-repeat top left;
+  opacity: .625;
+}
+
+.ui-shopping-service{
+  margin:0 -15px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+}
+span.goods-Return{
+  background-position: -50px 0;
+}
+span.exchange-goods{
+  background-position: -100px 0;
+}
+span.ng-binding{
+  background-position: -150px 0;
+}
+
+
+/*媒体查询样式设计*/
+/*pc终端*/
+@media screen and (min-width:992px){
+  .heStyle{
+    height:400px;
+    padding:1rem 0 .0rem;
+  }
+  .title{
+    line-height: 1.2;
+    font-size: 16px;
+  }
+  .picChange{
+    margin:23px 0 10px;
+    text-align: center;
+  }
+  .dot1,.dot2{
+    width:12px;
+    height:12px;
+  }
+  .price{
+    font-size:14px;
+  }
+  .ui-shopping-service{
+    margin-top:1rem;
+    padding:10px 0 20px;
+  }
+  .borMargin{
+    margin:0 0 1rem 0;
+  }
+  .secondNav{
+    margin-top:80px;
+    width:100%;
+  }
+  .secondNav>ul>li{
+    margin-right:3rem;
+    font-size:1.5rem;
+  }
+}
+
+@media screen and (min-width:768px ) and (max-width:991px){
+  .title{
+    line-height: 1.1;
+    font-size: 14px;
+  }
+  .price{
+    font-size:10px;
+  }
+  .ui-shopping-service{
+    margin-top:1rem;
+  }
+  .borMargin{
+    margin:0 0 0.8rem 0;
+  }
+
+}
+
+/*手机*/
+@media screen and ( max-width:767px){
+  .imgStyle{
+    margin-top:30px;
+  }
+  .title,.depict,.picChange,.priceHead{
+    text-align: left;
+  }
+  .title{
+    line-height: 1;
+    font-size: 12px;
+  }
+  .picChange{
+    margin:10px 0 10px;
+  }
+  .dot1,.dot2{
+    width:10px;
+    height:10px;
+  }
+  .price{
+    font-size:6px;
+  }
+  .ui-shopping-service{
+    margin-top:0;
+    display: none;
+  }
+  .borMargin{
+    margin:0 0 .5rem 0;
+  }
+
+
+}
+
+
+

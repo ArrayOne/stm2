@@ -1,0 +1,23 @@
+.marginTop {
+  margin-Top: 2rem;
+}
+.footer {
+  text-align: left;
+}
+.footer .footerHead {
+  color: #1b6d85;
+  font-weight: bold;
+}
+.border-Bottom {
+  border-bottom: 1px solid #E6E6E6;
+}
+.copyright {
+  margin: 30px 0;
+  padding: 0 30px;
+}
+.copyright .privacy li {
+  float: left;
+}
+.copyright .privacy {
+  overflow: hidden;
+}

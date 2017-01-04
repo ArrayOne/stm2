@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/subvbar.css">
+  <!--[if lt IE 9]>
+  <script src="js/html5shiv.min.js"></script>
+  <script src="js/respond.min.js"></script>
+  <![endif]-->
+
+  <style>
+    div {
+      border: 1px solid #aaa;
+    }
+
+    ul {
+      border: 1px solid #aaa;
+    }
+  </style>
+</head>
+<body>
+//响应式消息的头部
+<div class="navbar navbar-default navbar-fixed-top head">
+  <div class=container>
+    <div class="navbar-header">
+      <!--汉堡包按钮-->
+      <a href="#na" class="navbar-toggle" data-toggle="collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+  </div>
+</div>
+
+<!--主题的部分-->
+<div class="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
+        <div class="row heStyle">
+          <div class="col-xs-3 col-sm-12 ">
+
+            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
+
+          </div>
+          <div class="col-xs-9 col-sm-12">
+            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
+
+            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
+            <ul class="picChange">
+              <li class="dot1"></li>
+              <li class="dot2"></li>
+            </ul>
+            <div class="priceHead">
+              <span class="price">￥145.6</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="ui-shopping-service text-center">
+      <ul class="row sub-info list-inline list-unstyled ">
+        <li class="hidden-xs col-sm-6 col-md-3">
+          <span class="online"></span>
+          <h5>在线客服</h5>
+          <h6>周一至周六 9:00-18:00</h6>
+        </li>
+        <li class="hidden-xs col-sm-6 col-md-3">
+          <span class="goods-Return"></span>
+          <h5>在线客服</h5>
+          <h6>周一至周六 9:00-18:00</h6>
+        </li>
+        <li class="hidden-xs col-sm-6 col-md-3">
+          <span class="exchange-goods"></span>
+          <h5>在线客服</h5>
+          <h6>周一至周六 9:00-18:00</h6>
+        </li>
+        <li class="hidden-xs col-sm-6 col-md-3">
+          <span class="ng-binding"></span>
+          <h5>在线客服</h5>
+          <h6>周一至周六 9:00-18:00</h6>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--content-->
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.3.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.js"></script>
+<script>
+  (function () {//检测代码（开发初期使用）
+    var s = document.createElement("script");
+    s.onload = function () {
+      bootlint.showLintReportForCurrentDocument([]);
+    };
+    s.src = "js/bootlint.js";
+    document.body.appendChild(s)
+  })();
+</script>
+</body>
+</html>

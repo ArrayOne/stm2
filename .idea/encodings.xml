@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/css/bootstrap.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/footer.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/footer.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/header.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/header.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/main.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/main.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/subnavbar.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/subnavbar.less" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/css/subvbar.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/angular-animate.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/bootlint.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/gideFirst.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/html5shiv.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/jquery-1.11.3.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/js/respond.min.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/tpl/ear.html" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>
