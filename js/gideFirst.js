@@ -14,8 +14,12 @@ app.config(function($routeProvider){
 
 
     .when('/ear',{
-    templateUrl:"tpl/ear.html",
+      templateUrl:"tpl/ear.html",
     })
+    .when('/eD',{
+      templateUrl:"tpl/earDetail.html",
+    })
+
 
     .when('/bell',{
       templateUrl:'tpl/bell.html',
