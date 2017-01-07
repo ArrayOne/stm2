@@ -16,7 +16,7 @@ app.config(function($routeProvider){
     .when('/ear',{
       templateUrl:"tpl/ear.html",
     })
-    .when('/eD',{
+    .when('/earDetail',{
       templateUrl:"tpl/earDetail.html",
     })
 
@@ -24,10 +24,15 @@ app.config(function($routeProvider){
     .when('/bell',{
       templateUrl:'tpl/bell.html',
     })
+    .when('/bellDetail',{
+      templateUrl:'tpl/bellDetail.html',
+    })
+
 
     .when('/motion',{
       templateUrl:'tpl/motion.html',
     })
+
 
     .when('/round',{
       templateUrl:'tpl/round.html',
@@ -59,3 +64,4 @@ app.controller('parentCtrl',['$scope','$location',function($scope,$location){
    $location.path(arg);
   }
 }]);
+

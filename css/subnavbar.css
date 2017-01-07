@@ -53,10 +53,6 @@ a:hover {
 .bgColor {
   background: #EDEDED;
 }
-/*没有右边距*/
-.noMargin-Right {
-  margin-right: 0 !important;
-}
 /*圆*/
 .circleStyle {
   width: 23px;
@@ -117,14 +113,6 @@ span.ng-binding {
   .borMargin {
     margin: 0 0 1rem 0;
   }
-  .secondNav {
-    margin-top: 80px;
-    width: 100%;
-  }
-  .secondNav > ul > li {
-    margin-right: 3rem;
-    font-size: 1.5rem;
-  }
 }
 @media screen and (min-width: 768px) and (max-width: 991px) {
   .title {
@@ -143,6 +131,9 @@ span.ng-binding {
 }
 /*手机*/
 @media screen and (max-width: 767px) {
+  .heStyle {
+    border: 1px solid #aaa;
+  }
   .imgStyle {
     margin-top: 30px;
   }

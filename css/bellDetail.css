@@ -1,0 +1,17 @@
+.sku-dynamic-params ul {
+  overflow: hidden;
+}
+.sku-dynamic-params ul > li {
+  float: left;
+  margin-right: 10px;
+}
+@media screen and (min-width: 992px) {
+  .bell-top-padding {
+    padding: 30px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .sku-dynamic-params ul > li {
+    height: auto;
+  }
+}

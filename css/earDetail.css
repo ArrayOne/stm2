@@ -115,7 +115,7 @@ a[data-type="show"] > i {
 }
 @media screen and (max-width: 991px) {
   .banner {
-    margin-left: 0;
+    margin-left: 10px;
     padding-bottom: 1rem;
   }
   .verDirection {
