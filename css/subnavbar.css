@@ -49,10 +49,6 @@ a:hover {
   font-size: 14px;
 }
 /*设置每个小模块的边框*/
-.borMargin {
-  border: 1px solid #cccccc;
-  border-radius: 20px;
-}
 /*bgColor*/
 .bgColor {
   background: #EDEDED;
@@ -81,11 +77,6 @@ a:hover {
   margin: 20px auto 5px;
   background: url("../img/shopping-info_1d658b7a09.png") no-repeat top left;
   opacity: .625;
-}
-.ui-shopping-service {
-  margin: 0 -15px;
-  border: 1px solid #aaa;
-  border-radius: 20px;
 }
 span.goods-Return {
   background-position: -50px 0;

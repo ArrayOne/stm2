@@ -7,9 +7,7 @@
   //display: table-cell;
   vertical-align: middle;
 }
-.verDirection{
-  margin-top:7%;
-}
+
 .th>li {
   width: 54px;
   height: 54px;
@@ -21,29 +19,15 @@
 }
 
 .banner{
-  margin-left: 10px;
   vertical-align: middle;
   //display: table-cell;
   text-align: left;
 }
-.sku-custom-title{
-  overflow: hidden;
-  padding: 8px 0 10px 10px;
-  position: relative;
-  border-bottom: 1px solid #CECECE;
-}
-.items-price{
-  font-size:2rem;
-  color:red;
-}
-
 
 a[data-type="show"]{
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #E5E5E5;
-  padding: 3px;
+
+
   text-align: center;
   color: #757575;
   border-radius: 50%;
@@ -56,21 +40,11 @@ a[data-type="show"]>i{
   height: auto;
 }
 
-
-.sku-dynamic-params{
-  overflow: hidden;
-  padding: 8px 0 10px 10px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid #CECECE;
-}
-
-.down ,.up{//���ŵ���ʽ���
+.down ,.up{//
   position: relative;
   float: left;
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
+
   text-indent: -9999em;
   cursor: pointer;
   border-radius: 50%;
@@ -81,20 +55,165 @@ a[data-type="show"]>i{
   overflow: hidden;
   float: left;
   display: inline-block;
-  width: 2rem;
-  height: 18px;
-  margin: 7px 0 0;
+  text-align: center;
   border: none;
   border-radius: 3px;
-  line-height: 18px;
-  text-align: center;
-  font-size: 16px;
 }
-.notice{
+.notice{//提示性信息的字体颜色
 color:#adadad;
 }
-.line{
-  color:#adadad;
-  margin-top:5px !important;
-  margin-bottom:5px !important;
+
+.no-border-bottom{//取消下边框
+  border-bottom:none !important;
+}
+
+
+
+@media screen and (min-width :992px){
+  .verDirection{
+    margin-top:7%;
+  }
+  .items-price{
+    font-size:2rem;
+    color:red;
+  }
+
+  .banner{
+    margin-left: 10px;
+  }
+  .sku-dynamic-params{
+    overflow: hidden;
+    padding: 8px 0 10px 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #CECECE;
+  }
+
+
+  .sku-custom-title{
+    overflow: hidden;
+    padding: 8px 0 10px 10px;
+    position: relative;
+    border-bottom: 1px solid #CECECE;
+  }
+
+  a[data-type="show"]{
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 2px solid #E5E5E5;
+  }
+  .num{
+    width: 2rem;
+    height: 18px;
+    margin: 7px 0 0;
+    line-height: 18px;
+    font-size: 16px;
+  }
+  .up,.down{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+  .main .container:nth-child(2){
+    margin-top:20px;
+  }
+
+
+  .wear-ear-pic{
+    margin-top:2rem;
+  }
+
+  .wear-ear-pic dl{
+    display: inline-block;
+    margin-right:2rem;
+  }
+  .wear-ear-pic dl>dt{
+    width:240px;
+    height:240px;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  .bottom-gap{//设置每个模块的下边距
+    margin-top:2rem;
+    margin-bottom:3rem;
+  }
+
+}
+
+
+
+
+
+
+@media screen and  (max-width:991px){
+  .banner{
+    margin-left: 0;
+    padding-bottom:1rem;
+  }
+  .verDirection{
+    margin-top:0;
+    margin-bottom:0;
+  }
+  h3{
+    font-size:2rem;
+  }
+  span,p{
+    font-size:1.5rem;
+  }
+
+  .items-price{
+    font-size:1.5rem;
+    color:red;
+    margin-top:5px;
+  }
+
+  .sku-custom-title{
+    overflow: hidden;
+    padding: 4px 0 5px 5px;
+    position: relative;
+    border-bottom: 1px solid #CECECE;
+  }
+  a[data-type="show"]{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border: 2px solid #E5E5E5;
+  }
+  .sku-dynamic-params{
+    overflow: hidden;
+    padding: 4px 0 5px 5px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #CECECE;
+  }
+
+  .up,.down{
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+  }
+  .num{
+    width: 1.5rem;
+    height: 10px;
+    margin: 4px 0 0;
+    line-height: 9px;
+    font-size: 15px;
+  }
+
+  .main .container:nth-child(2){
+    margin-top:10px;
+  }
+
+  .wear-ear-pic dl>dt{
+    width:200px;
+    height:200px;
+    border-radius:50%;
+    overflow:hidden;
+  }
+  .bottom-gap{//设置每个模块的下边距
+    margin-top:0;
+    margin-bottom:0;
+  }
+
+
 }

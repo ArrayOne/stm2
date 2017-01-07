@@ -15,6 +15,13 @@
 .secondNav li > a {
   color: #aaa;
 }
+.secondNav ul {
+  text-align: left;
+}
+.secondNav ul > li {
+  margin-right: 3rem;
+  background-color: #EDEDED;
+}
 .marginTop {
   margin-Top: 2rem;
 }
@@ -25,18 +32,26 @@
   color: #1b6d85;
   font-weight: bold;
 }
-.border-Bottom {
-  border-bottom: 1px solid #E6E6E6;
+.ui-shopping-service {
+  margin: 0 -15px;
+  border-radius: 20px;
+}
+s .border-Bottom {
+  border-top: 1px solid #E6E6E6;
+  padding: 1rem auto !important;
 }
 .copyright {
-  margin: 30px 0;
-  padding: 0 30px;
+  margin: 20px 0;
+  padding: 0 20px;
 }
 .copyright .privacy li {
   float: left;
 }
 .copyright .privacy {
   overflow: hidden;
+}
+.sub-info {
+  margin: 2rem auto;
 }
 ul,
 p,
@@ -89,10 +104,6 @@ a:hover {
   font-size: 14px;
 }
 /*设置每个小模块的边框*/
-.borMargin {
-  border: 1px solid #cccccc;
-  border-radius: 20px;
-}
 /*bgColor*/
 .bgColor {
   background: #EDEDED;
@@ -121,11 +132,6 @@ a:hover {
   margin: 20px auto 5px;
   background: url("../img/shopping-info_1d658b7a09.png") no-repeat top left;
   opacity: .625;
-}
-.ui-shopping-service {
-  margin: 0 -15px;
-  border: 1px solid #aaa;
-  border-radius: 20px;
 }
 span.goods-Return {
   background-position: -50px 0;
@@ -227,9 +233,6 @@ span.ng-binding {
 .th .thuImg {
   vertical-align: middle;
 }
-.verDirection {
-  margin-top: 7%;
-}
 .th > li {
   width: 54px;
   height: 54px;
@@ -240,26 +243,11 @@ span.ng-binding {
   cursor: pointer;
 }
 .banner {
-  margin-left: 10px;
   vertical-align: middle;
   text-align: left;
 }
-.sku-custom-title {
-  overflow: hidden;
-  padding: 8px 0 10px 10px;
-  position: relative;
-  border-bottom: 1px solid #CECECE;
-}
-.items-price {
-  font-size: 2rem;
-  color: red;
-}
 a[data-type="show"] {
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  border: 2px solid #E5E5E5;
-  padding: 3px;
   text-align: center;
   color: #757575;
   border-radius: 50%;
@@ -270,20 +258,11 @@ a[data-type="show"] > i {
   border-radius: 50%;
   height: auto;
 }
-.sku-dynamic-params {
-  overflow: hidden;
-  padding: 8px 0 10px 10px;
-  margin-bottom: 5px;
-  border-bottom: 1px solid #CECECE;
-}
 .down,
 .up {
   position: relative;
   float: left;
   display: inline-block;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
   text-indent: -9999em;
   cursor: pointer;
   border-radius: 50%;
@@ -293,24 +272,161 @@ a[data-type="show"] > i {
   overflow: hidden;
   float: left;
   display: inline-block;
-  width: 2rem;
-  height: 18px;
-  margin: 7px 0 0;
+  text-align: center;
   border: none;
   border-radius: 3px;
-  line-height: 18px;
-  text-align: center;
-  font-size: 16px;
 }
 .notice {
   color: #adadad;
 }
-.line {
-  color: #adadad;
-  margin-top: 5px !important;
-  margin-bottom: 5px !important;
+.no-border-bottom {
+  border-bottom: none !important;
+}
+@media screen and (min-width: 992px) {
+  .verDirection {
+    margin-top: 7%;
+  }
+  .items-price {
+    font-size: 2rem;
+    color: red;
+  }
+  .banner {
+    margin-left: 10px;
+  }
+  .sku-dynamic-params {
+    overflow: hidden;
+    padding: 8px 0 10px 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #CECECE;
+  }
+  .sku-custom-title {
+    overflow: hidden;
+    padding: 8px 0 10px 10px;
+    position: relative;
+    border-bottom: 1px solid #CECECE;
+  }
+  a[data-type="show"] {
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    border: 2px solid #E5E5E5;
+  }
+  .num {
+    width: 2rem;
+    height: 18px;
+    margin: 7px 0 0;
+    line-height: 18px;
+    font-size: 16px;
+  }
+  .up,
+  .down {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .main .container:nth-child(2) {
+    margin-top: 20px;
+  }
+  .wear-ear-pic {
+    margin-top: 2rem;
+  }
+  .wear-ear-pic dl {
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .wear-ear-pic dl > dt {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .bottom-gap {
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner {
+    margin-left: 0;
+    padding-bottom: 1rem;
+  }
+  .verDirection {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  span,
+  p {
+    font-size: 1.5rem;
+  }
+  .items-price {
+    font-size: 1.5rem;
+    color: red;
+    margin-top: 5px;
+  }
+  .sku-custom-title {
+    overflow: hidden;
+    padding: 4px 0 5px 5px;
+    position: relative;
+    border-bottom: 1px solid #CECECE;
+  }
+  a[data-type="show"] {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    border: 2px solid #E5E5E5;
+  }
+  .sku-dynamic-params {
+    overflow: hidden;
+    padding: 4px 0 5px 5px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #CECECE;
+  }
+  .up,
+  .down {
+    width: 20px;
+    height: 20px;
+    line-height: 30px;
+  }
+  .num {
+    width: 1.5rem;
+    height: 10px;
+    margin: 4px 0 0;
+    line-height: 9px;
+    font-size: 15px;
+  }
+  .main .container:nth-child(2) {
+    margin-top: 10px;
+  }
+  .wear-ear-pic dl > dt {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .bottom-gap {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 }
 .secondNav .list-group .list-group-item,
 .footer .list-group .list-group-item {
   border: none;
+}
+body {
+  background: #EDEDED !important;
+  text-align: center;
+}
+.main {
+  display: inline-block;
+  width: auto;
+  height: auto;
+}
+.sub-bottomBar .container,
+.footer .container,
+.main .container {
+  background: #fff;
+  border-radius: 10px;
 }
