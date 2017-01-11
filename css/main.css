@@ -171,7 +171,7 @@ a:hover {
 .online,
 .goods-Return,
 .exchange-goods,
-.ng-binding {
+.binding {
   width: 36px;
   height: 40px;
   display: inline-block;
@@ -185,7 +185,7 @@ span.goods-Return {
 span.exchange-goods {
   background-position: -100px 0;
 }
-span.ng-binding {
+span.binding {
   background-position: -150px 0;
 }
 /*媒体查询样式设计*/
@@ -203,10 +203,10 @@ span.ng-binding {
     margin: 23px 0 10px;
     text-align: center;
   }
-  .dot1,
-  .dot2 {
+  .dot1 {
     width: 12px;
     height: 12px;
+    margin: auto 3px;
   }
   .price {
     font-size: 14px;

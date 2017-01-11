@@ -2,175 +2,28 @@
 
 <div class="main">
   <div class="container">
-    <div class="row ">
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
+    <div class="row " >
+      <div class="col-xs-12 col-sm-6 col-md-3 borMargin" ng-repeat="tmp in earList" ><!--1-->
         <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
+          <div class="col-xs-3 col-sm-12">
+            <a href="#/earDetail" data-eid="{{tmp.eid}}">
+              <img ng-src="{{tmp.eCT[0].epic_L}}" alt="" class="img-responsive imgStyle"/>
+            </a>
           </div>
           <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
+            <h6 class="title" >{{tmp.ename}}</h6>
+            <h3 class="depict">{{tmp.Info}}</h3>
             <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
+              <li class="dot1" data-color="{{dot.ec}}" data-src="{{dot.epic_L}}"  ng-repeat="dot in tmp.eCT"></li>
+
             </ul>
             <div class="priceHead">
-              <span class="price">￥145.6</span>
+              <span class="price">{{tmp.eprice}}</span>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
 
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-md-3 borMargin"><!--1-->
-        <div class="row heStyle">
-          <div class="col-xs-3 col-sm-12 ">
-
-            <img src="img/earone.jpg" alt="" class="img-responsive imgStyle"/>
-
-          </div>
-          <div class="col-xs-9 col-sm-12">
-            <h6 class="title">Fill Diva Pro 全场景无线降噪耳机</h6>
-
-            <h3 class="depict">智能语音交互,高清无损蹦迪存储播放</h3>
-            <ul class="picChange">
-              <li class="dot1"></li>
-              <li class="dot2"></li>
-            </ul>
-            <div class="priceHead">
-              <span class="price">￥145.6</span>
-            </div>
-          </div>
-        </div>
-      </div>
 
     </div>
   </div>

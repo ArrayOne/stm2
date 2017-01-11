@@ -12,9 +12,9 @@
   margin: 0 -15px;
   border-radius: 20px;
 }
-s .border-Bottom {
-  border-top: 1px solid #E6E6E6;
-  padding: 1rem auto !important;
+.border-Bottom {
+  border-top: 1px solid #E6E6E6 !important;
+  padding: 1.5rem 0 0 0;
 }
 .copyright {
   margin: 20px 0;
